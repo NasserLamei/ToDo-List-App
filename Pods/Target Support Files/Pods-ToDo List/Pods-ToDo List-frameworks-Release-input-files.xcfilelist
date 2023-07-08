@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-ToDo List/Pods-ToDo List-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FittedSheets/FittedSheets.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework
+${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework

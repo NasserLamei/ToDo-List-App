@@ -1,0 +1,91 @@
+PODS:
+  - Firebase/Auth (4.11.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.5.0)
+  - Firebase/Core (4.11.0):
+    - FirebaseAnalytics (= 4.1.0)
+    - FirebaseCore (= 4.0.18)
+  - Firebase/Database (4.11.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.5)
+  - FirebaseAnalytics (4.1.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.5.0):
+    - FirebaseAnalytics (~> 4.1)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.18):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseUI/Auth (4.5.5):
+    - Firebase/Auth (~> 4.2)
+  - FittedSheets (1.4.6)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GTMSessionFetcher/Core (1.7.2)
+  - IQKeyboardManagerSwift (6.5.11)
+  - leveldb-library (1.22.1)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - Firebase/Core (= 4.11.0)
+  - Firebase/Database
+  - FirebaseUI/Auth
+  - FittedSheets
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseUI
+    - FittedSheets
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - leveldb-library
+    - nanopb
+
+SPEC CHECKSUMS:
+  Firebase: cc13dfab1038c8b45d7903e01fc690451d6d0b24
+  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
+  FirebaseAuth: 147bf340a0706b44ca1753d6b41ebafd9687cfe6
+  FirebaseCore: b981f47e5254cbcfdeb483355300d743f6fcab2c
+  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseUI: 7f149d40db1a67c459df16540256b66d8f8e8c70
+  FittedSheets: 7f37fee2567d15dcde391f31eccbffb660ddebf0
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+
+PODFILE CHECKSUM: b94775775042d550b877366bd58df32f166b8b43
+
+COCOAPODS: 1.12.1
