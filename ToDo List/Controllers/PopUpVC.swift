@@ -80,7 +80,7 @@ class PopUpVC: UIViewController {
     @objc func datePickerSelected() {
         dateAndTimeTextField.text =  datePicker.date.description
         let formatter = DateFormatter()
-        formatter.dateFormat = "YYYY/MM/dd h:mm a"
+        formatter.dateFormat = "YYYY/MM/dd h:mm a "
         dateAndTimeTextField.text = formatter.string(from: datePicker.date)
         dateAndTimeTextField.textColor = .purple
         dateAndTimeLabel.isHidden = false
@@ -93,7 +93,7 @@ class PopUpVC: UIViewController {
     }
     private func isDataEnterd()->Bool{
         guard dateAndTimeTextField.text != "" else{
-            showAlert(msg: "Please, Choice Valid Date")
+            showAlert(msg: "Please, Choice Valid Date .")
             return false
         }
         guard contentTextField.text != "" else{
